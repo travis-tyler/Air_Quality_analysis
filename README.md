@@ -1,5 +1,5 @@
 # Visualizing Air Quality Analysis
-### An analysis of trends the AQI of American cities
+### An analysis of trends of air quality indexes in the U.S.
 
 How does U.S. air quality in 2020 compare to previous years given the coronavirus pandemic, nationwide lockdowns, economic slowdown, and decreased travel? 
 
