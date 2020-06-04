@@ -13,3 +13,8 @@ Front end:  HTML, CSS, JavaScript<br />
 Connecting front end and back end:  Python Flask<br />
 Charts:  JavaScript Libraries ( Plotly)<br />
 Deploying Application:  Heroku
+
+
+### Example:
+https://hal-pemulis.github.io/plotlyChallenge/
+This will the template we will reference. Instead of "Test Subject ID No.," the dropdown will include U.S. county names. Charts and data will appear on screen when one is selected.
