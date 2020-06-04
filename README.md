@@ -11,9 +11,9 @@ We will be looking at the daily AQIs (air quality indexes) for counties across t
 
 -
 
-Tools Used for the Project:
-Back end database:  SQL Database, SQLite, ?>
+# Tools Used for the Project:
+Back end database:  SQL Database, SQLite, 
 Front end:  HTML, CSS, JavaScript
-Connecting front end and back end:  Python Flask  ??
+Connecting front end and back end:  Python Flask 
 Charts:  JavaScript Libraries ( Plotly) 
 Deploying Application:  Heroku
