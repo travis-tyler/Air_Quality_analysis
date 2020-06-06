@@ -5,7 +5,7 @@ function buildPlot(id) {
    
     // load data from samples.json file
    
-    d3.json("samples.json").then((data) => {
+    d3.json("2019AQI.json").then((data) => {
         console.log(data)
         var wfreq = data.metadata.map(d => d.wfreq)
 
