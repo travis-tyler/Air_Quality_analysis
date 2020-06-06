@@ -89,7 +89,7 @@ function buildPlot(id) {
 
 function dropdowninfo(id) {
 
-    d3.json("samples.json").then((data) => {
+    d3.json("2019AQI.json").then((data) => {
 
         // Get the meta Data
         var metadata = data.metadata;
@@ -125,7 +125,7 @@ function init() {
     // select dropdown menu 
     var dropdown = d3.select("#selDataset");
  
-    d3.json("samples.json").then((data) => {
+    d3.json("2019AQI.json").then((data) => {
         console.log(data)
 
         // drop down IDs
