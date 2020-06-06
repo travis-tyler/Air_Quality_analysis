@@ -1,0 +1,1522 @@
+﻿[
+    {
+        "Date": "01/01/2020",
+        "Overall AQI Value": "94",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Compton",
+        "Site ID (of Overall AQI)": "06-037-1302",
+        "Source (of Overall AQI)": "AQS",
+        "Ozone": "44",
+        "PM25": "94"
+    },
+    {
+        "Date": "01/02/2020",
+        "Overall AQI Value": "72",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Compton",
+        "Site ID (of Overall AQI)": "06-037-1302",
+        "Source (of Overall AQI)": "AQS",
+        "Ozone": "40",
+        "PM25": "72"
+    },
+    {
+        "Date": "01/03/2020",
+        "Overall AQI Value": "80",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Long Beach (South)",
+        "Site ID (of Overall AQI)": "06-037-4004",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "41",
+        "PM25": "80"
+    },
+    {
+        "Date": "01/04/2020",
+        "Overall AQI Value": "104",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Compton",
+        "Site ID (of Overall AQI)": "06-037-1302",
+        "Source (of Overall AQI)": "AQS",
+        "Ozone": "36",
+        "PM25": "104"
+    },
+    {
+        "Date": "01/05/2020",
+        "Overall AQI Value": "103",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Compton",
+        "Site ID (of Overall AQI)": "06-037-1302",
+        "Source (of Overall AQI)": "AQS",
+        "Ozone": "40",
+        "PM25": "103"
+    },
+    {
+        "Date": "01/06/2020",
+        "Overall AQI Value": "61",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Long Beach (South)",
+        "Site ID (of Overall AQI)": "06-037-4004",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "42",
+        "PM25": "61"
+    },
+    {
+        "Date": "01/07/2020",
+        "Overall AQI Value": "34",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Mission Viejo",
+        "Site ID (of Overall AQI)": "06-059-2022",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "34",
+        "PM25": "33"
+    },
+    {
+        "Date": "01/08/2020",
+        "Overall AQI Value": "59",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Long Beach-Route 710 Near Road",
+        "Site ID (of Overall AQI)": "06-037-4008",
+        "Source (of Overall AQI)": "AQS",
+        "Ozone": "38",
+        "PM25": "59"
+    },
+    {
+        "Date": "01/09/2020",
+        "Overall AQI Value": "47",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Los Angeles-North Main Street",
+        "Site ID (of Overall AQI)": "06-037-1103",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "37",
+        "PM25": "47"
+    },
+    {
+        "Date": "01/10/2020",
+        "Overall AQI Value": "66",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Compton",
+        "Site ID (of Overall AQI)": "06-037-1302",
+        "Source (of Overall AQI)": "AQS",
+        "Ozone": "34",
+        "PM25": "66"
+    },
+    {
+        "Date": "01/11/2020",
+        "Overall AQI Value": "80",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Compton",
+        "Site ID (of Overall AQI)": "06-037-1302",
+        "Source (of Overall AQI)": "AQS",
+        "Ozone": "38",
+        "PM25": "80"
+    },
+    {
+        "Date": "01/12/2020",
+        "Overall AQI Value": "76",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Compton",
+        "Site ID (of Overall AQI)": "06-037-1302",
+        "Source (of Overall AQI)": "AQS",
+        "Ozone": "42",
+        "PM25": "76"
+    },
+    {
+        "Date": "01/13/2020",
+        "Overall AQI Value": "76",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Long Beach-Route 710 Near Road",
+        "Site ID (of Overall AQI)": "06-037-4008",
+        "Source (of Overall AQI)": "AQS",
+        "Ozone": "42",
+        "PM25": "76"
+    },
+    {
+        "Date": "01/14/2020",
+        "Overall AQI Value": "83",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Long Beach-Route 710 Near Road",
+        "Site ID (of Overall AQI)": "06-037-4008",
+        "Source (of Overall AQI)": "AQS",
+        "Ozone": "44",
+        "PM25": "83"
+    },
+    {
+        "Date": "01/15/2020",
+        "Overall AQI Value": "122",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Long Beach-Route 710 Near Road",
+        "Site ID (of Overall AQI)": "06-037-4008",
+        "Source (of Overall AQI)": "AQS",
+        "Ozone": "40",
+        "PM25": "122"
+    },
+    {
+        "Date": "01/16/2020",
+        "Overall AQI Value": "91",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Pico Rivera #2",
+        "Site ID (of Overall AQI)": "06-037-1602",
+        "Source (of Overall AQI)": "AQS",
+        "Ozone": "46",
+        "PM25": "91"
+    },
+    {
+        "Date": "01/17/2020",
+        "Overall AQI Value": "39",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Compton",
+        "Site ID (of Overall AQI)": "06-037-1302",
+        "Source (of Overall AQI)": "AQS",
+        "Ozone": "38",
+        "PM25": "39"
+    },
+    {
+        "Date": "01/18/2020",
+        "Overall AQI Value": "62",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Long Beach (South)",
+        "Site ID (of Overall AQI)": "06-037-4004",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "41",
+        "PM25": "62"
+    },
+    {
+        "Date": "01/19/2020",
+        "Overall AQI Value": "58",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Long Beach (South)",
+        "Site ID (of Overall AQI)": "06-037-4004",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "39",
+        "PM25": "58"
+    },
+    {
+        "Date": "01/20/2020",
+        "Overall AQI Value": "69",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Compton",
+        "Site ID (of Overall AQI)": "06-037-1302",
+        "Source (of Overall AQI)": "AQS",
+        "Ozone": "35",
+        "PM25": "69"
+    },
+    {
+        "Date": "01/21/2020",
+        "Overall AQI Value": "49",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Glendora",
+        "Site ID (of Overall AQI)": "06-037-0016",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "39",
+        "PM25": "49"
+    },
+    {
+        "Date": "01/22/2020",
+        "Overall AQI Value": "59",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Long Beach-Route 710 Near Road",
+        "Site ID (of Overall AQI)": "06-037-4008",
+        "Source (of Overall AQI)": "AQS",
+        "Ozone": "38",
+        "PM25": "59"
+    },
+    {
+        "Date": "01/23/2020",
+        "Overall AQI Value": "59",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Anaheim",
+        "Site ID (of Overall AQI)": "06-059-0007",
+        "Source (of Overall AQI)": "AQS",
+        "Ozone": "37",
+        "PM25": "59"
+    },
+    {
+        "Date": "01/24/2020",
+        "Overall AQI Value": "68",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Compton",
+        "Site ID (of Overall AQI)": "06-037-1302",
+        "Source (of Overall AQI)": "AQS",
+        "Ozone": "33",
+        "PM25": "68"
+    },
+    {
+        "Date": "01/25/2020",
+        "Overall AQI Value": "99",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Los Angeles-North Main Street",
+        "Site ID (of Overall AQI)": "06-037-1103",
+        "Source (of Overall AQI)": "AQS",
+        "Ozone": "38",
+        "PM25": "99"
+    },
+    {
+        "Date": "01/26/2020",
+        "Overall AQI Value": "130",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Los Angeles-North Main Street",
+        "Site ID (of Overall AQI)": "06-037-1103",
+        "Source (of Overall AQI)": "AQS",
+        "Ozone": "42",
+        "PM25": "130"
+    },
+    {
+        "Date": "01/27/2020",
+        "Overall AQI Value": "81",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Anaheim",
+        "Site ID (of Overall AQI)": "06-059-0007",
+        "Source (of Overall AQI)": "AQS",
+        "Ozone": "40",
+        "PM25": "81"
+    },
+    {
+        "Date": "01/28/2020",
+        "Overall AQI Value": "57",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Long Beach (South)",
+        "Site ID (of Overall AQI)": "06-037-4004",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "42",
+        "PM25": "57"
+    },
+    {
+        "Date": "01/29/2020",
+        "Overall AQI Value": "46",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Long Beach (South)",
+        "Site ID (of Overall AQI)": "06-037-4004",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "44",
+        "PM25": "46"
+    },
+    {
+        "Date": "01/30/2020",
+        "Overall AQI Value": "54",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Long Beach (South)",
+        "Site ID (of Overall AQI)": "06-037-4004",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "41",
+        "PM25": "54"
+    },
+    {
+        "Date": "01/31/2020",
+        "Overall AQI Value": "56",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Long Beach-Route 710 Near Road",
+        "Site ID (of Overall AQI)": "06-037-4008",
+        "Source (of Overall AQI)": "AQS",
+        "Ozone": "38",
+        "PM25": "56"
+    },
+    {
+        "Date": "02/01/2020",
+        "Overall AQI Value": "58",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Long Beach (South)",
+        "Site ID (of Overall AQI)": "06-037-4004",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "47",
+        "PM25": "58"
+    },
+    {
+        "Date": "02/02/2020",
+        "Overall AQI Value": "68",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Compton",
+        "Site ID (of Overall AQI)": "06-037-1302",
+        "Source (of Overall AQI)": "AQS",
+        "Ozone": "44",
+        "PM25": "68"
+    },
+    {
+        "Date": "02/03/2020",
+        "Overall AQI Value": "45",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "45",
+        "PM25": "26"
+    },
+    {
+        "Date": "02/04/2020",
+        "Overall AQI Value": "44",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Mission Viejo",
+        "Site ID (of Overall AQI)": "06-059-2022",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "44",
+        "PM25": "31"
+    },
+    {
+        "Date": "02/05/2020",
+        "Overall AQI Value": "52",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Long Beach (South)",
+        "Site ID (of Overall AQI)": "06-037-4004",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "39",
+        "PM25": "52"
+    },
+    {
+        "Date": "02/06/2020",
+        "Overall AQI Value": "60",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Long Beach-Route 710 Near Road",
+        "Site ID (of Overall AQI)": "06-037-4008",
+        "Source (of Overall AQI)": "AQS",
+        "Ozone": "39",
+        "PM25": "60"
+    },
+    {
+        "Date": "02/07/2020",
+        "Overall AQI Value": "74",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Long Beach (South)",
+        "Site ID (of Overall AQI)": "06-037-4004",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "44",
+        "PM25": "74"
+    },
+    {
+        "Date": "02/08/2020",
+        "Overall AQI Value": "83",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Compton",
+        "Site ID (of Overall AQI)": "06-037-1302",
+        "Source (of Overall AQI)": "AQS",
+        "Ozone": "67",
+        "PM25": "83"
+    },
+    {
+        "Date": "02/09/2020",
+        "Overall AQI Value": "55",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Los Angeles-North Main Street",
+        "Site ID (of Overall AQI)": "06-037-1103",
+        "Source (of Overall AQI)": "AQS",
+        "Ozone": "42",
+        "PM25": "55"
+    },
+    {
+        "Date": "02/10/2020",
+        "Overall AQI Value": "41",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Reseda",
+        "Site ID (of Overall AQI)": "06-037-1201",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "41",
+        "PM25": "39"
+    },
+    {
+        "Date": "02/11/2020",
+        "Overall AQI Value": "45",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Mission Viejo",
+        "Site ID (of Overall AQI)": "06-059-2022",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "45",
+        "PM25": "37"
+    },
+    {
+        "Date": "02/12/2020",
+        "Overall AQI Value": "51",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Long Beach (South)",
+        "Site ID (of Overall AQI)": "06-037-4004",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "44",
+        "PM25": "51"
+    },
+    {
+        "Date": "02/13/2020",
+        "Overall AQI Value": "61",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Long Beach (South)",
+        "Site ID (of Overall AQI)": "06-037-4004",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "46",
+        "PM25": "61"
+    },
+    {
+        "Date": "02/14/2020",
+        "Overall AQI Value": "64",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Los Angeles-North Main Street",
+        "Site ID (of Overall AQI)": "06-037-1103",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "49",
+        "PM25": "64"
+    },
+    {
+        "Date": "02/15/2020",
+        "Overall AQI Value": "74",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Compton",
+        "Site ID (of Overall AQI)": "06-037-1302",
+        "Source (of Overall AQI)": "AQS",
+        "Ozone": "61",
+        "PM25": "74"
+    },
+    {
+        "Date": "02/16/2020",
+        "Overall AQI Value": "80",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pomona",
+        "Site ID (of Overall AQI)": "06-037-1701",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "80",
+        "PM25": "74"
+    },
+    {
+        "Date": "02/17/2020",
+        "Overall AQI Value": "72",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Compton",
+        "Site ID (of Overall AQI)": "06-037-1302",
+        "Source (of Overall AQI)": "AQS",
+        "Ozone": "71",
+        "PM25": "72"
+    },
+    {
+        "Date": "02/18/2020",
+        "Overall AQI Value": "75",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Los Angeles-North Main Street",
+        "Site ID (of Overall AQI)": "06-037-1103",
+        "Source (of Overall AQI)": "AQS",
+        "Ozone": "45",
+        "PM25": "75"
+    },
+    {
+        "Date": "02/19/2020",
+        "Overall AQI Value": "83",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Los Angeles-North Main Street",
+        "Site ID (of Overall AQI)": "06-037-1103",
+        "Source (of Overall AQI)": "AQS",
+        "Ozone": "50",
+        "PM25": "83"
+    },
+    {
+        "Date": "02/20/2020",
+        "Overall AQI Value": "74",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Long Beach (South)",
+        "Site ID (of Overall AQI)": "06-037-4004",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "49",
+        "PM25": "74"
+    },
+    {
+        "Date": "02/21/2020",
+        "Overall AQI Value": "70",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Long Beach (South)",
+        "Site ID (of Overall AQI)": "06-037-4004",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "58",
+        "PM25": "70"
+    },
+    {
+        "Date": "02/22/2020",
+        "Overall AQI Value": "42",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "42",
+        "PM25": "34"
+    },
+    {
+        "Date": "02/23/2020",
+        "Overall AQI Value": "53",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Glendora",
+        "Site ID (of Overall AQI)": "06-037-0016",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "47",
+        "PM25": "53"
+    },
+    {
+        "Date": "02/24/2020",
+        "Overall AQI Value": "59",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Glendora",
+        "Site ID (of Overall AQI)": "06-037-0016",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "44",
+        "PM25": "59"
+    },
+    {
+        "Date": "02/25/2020",
+        "Overall AQI Value": "59",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Long Beach (South)",
+        "Site ID (of Overall AQI)": "06-037-4004",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "46",
+        "PM25": "59"
+    },
+    {
+        "Date": "02/26/2020",
+        "Overall AQI Value": "48",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Long Beach (South)",
+        "Site ID (of Overall AQI)": "06-037-4004",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "43",
+        "PM25": "48"
+    },
+    {
+        "Date": "02/27/2020",
+        "Overall AQI Value": "54",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Long Beach (South)",
+        "Site ID (of Overall AQI)": "06-037-4004",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "43",
+        "PM25": "54"
+    },
+    {
+        "Date": "02/28/2020",
+        "Overall AQI Value": "46",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Long Beach (South)",
+        "Site ID (of Overall AQI)": "06-037-4004",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "45",
+        "PM25": "46"
+    },
+    {
+        "Date": "02/29/2020",
+        "Overall AQI Value": "51",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "51",
+        "PM25": "47"
+    },
+    {
+        "Date": "03/01/2020",
+        "Overall AQI Value": "46",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Glendora",
+        "Site ID (of Overall AQI)": "06-037-0016",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "46",
+        "PM25": "46"
+    },
+    {
+        "Date": "03/02/2020",
+        "Overall AQI Value": "45",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "45",
+        "PM25": "35"
+    },
+    {
+        "Date": "03/03/2020",
+        "Overall AQI Value": "44",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "44",
+        "PM25": "34"
+    },
+    {
+        "Date": "03/04/2020",
+        "Overall AQI Value": "59",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Los Angeles-North Main Street",
+        "Site ID (of Overall AQI)": "06-037-1103",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "44",
+        "PM25": "59"
+    },
+    {
+        "Date": "03/05/2020",
+        "Overall AQI Value": "72",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Long Beach (South)",
+        "Site ID (of Overall AQI)": "06-037-4004",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "61",
+        "PM25": "72"
+    },
+    {
+        "Date": "03/06/2020",
+        "Overall AQI Value": "67",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Los Angeles-North Main Street",
+        "Site ID (of Overall AQI)": "06-037-1103",
+        "Source (of Overall AQI)": "AQS",
+        "Ozone": "58",
+        "PM25": "67"
+    },
+    {
+        "Date": "03/07/2020",
+        "Overall AQI Value": "42",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "42",
+        "PM25": "37"
+    },
+    {
+        "Date": "03/08/2020",
+        "Overall AQI Value": "42",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "42",
+        "PM25": "27"
+    },
+    {
+        "Date": "03/09/2020",
+        "Overall AQI Value": "38",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "38",
+        "PM25": "32"
+    },
+    {
+        "Date": "03/10/2020",
+        "Overall AQI Value": "28",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Reseda",
+        "Site ID (of Overall AQI)": "06-037-1201",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "28",
+        "PM25": "23"
+    },
+    {
+        "Date": "03/11/2020",
+        "Overall AQI Value": "41",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Reseda",
+        "Site ID (of Overall AQI)": "06-037-1201",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "41",
+        "PM25": "25"
+    },
+    {
+        "Date": "03/12/2020",
+        "Overall AQI Value": "40",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Long Beach-Route 710 Near Road",
+        "Site ID (of Overall AQI)": "06-037-4008",
+        "Source (of Overall AQI)": "AQS",
+        "Ozone": "31",
+        "PM25": "40"
+    },
+    {
+        "Date": "03/13/2020",
+        "Overall AQI Value": "37",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Santa Clarita",
+        "Site ID (of Overall AQI)": "06-037-6012",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "37",
+        "PM25": "32"
+    },
+    {
+        "Date": "03/14/2020",
+        "Overall AQI Value": "41",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Reseda",
+        "Site ID (of Overall AQI)": "06-037-1201",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "41",
+        "PM25": "30"
+    },
+    {
+        "Date": "03/15/2020",
+        "Overall AQI Value": "43",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "43",
+        "PM25": "30"
+    },
+    {
+        "Date": "03/16/2020",
+        "Overall AQI Value": "38",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Lancaster-Division Street",
+        "Site ID (of Overall AQI)": "06-037-9033",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "38",
+        "PM25": "37"
+    },
+    {
+        "Date": "03/17/2020",
+        "Overall AQI Value": "43",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "43",
+        "PM25": "25"
+    },
+    {
+        "Date": "03/18/2020",
+        "Overall AQI Value": "44",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Reseda",
+        "Site ID (of Overall AQI)": "06-037-1201",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "44",
+        "PM25": "35"
+    },
+    {
+        "Date": "03/19/2020",
+        "Overall AQI Value": "44",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Reseda",
+        "Site ID (of Overall AQI)": "06-037-1201",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "44",
+        "PM25": "28"
+    },
+    {
+        "Date": "03/20/2020",
+        "Overall AQI Value": "43",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "43",
+        "PM25": "25"
+    },
+    {
+        "Date": "03/21/2020",
+        "Overall AQI Value": "47",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Reseda",
+        "Site ID (of Overall AQI)": "06-037-1201",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "47",
+        "PM25": "32"
+    },
+    {
+        "Date": "03/22/2020",
+        "Overall AQI Value": "43",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "43",
+        "PM25": "25"
+    },
+    {
+        "Date": "03/23/2020",
+        "Overall AQI Value": "45",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "45",
+        "PM25": "22"
+    },
+    {
+        "Date": "03/24/2020",
+        "Overall AQI Value": "43",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "43",
+        "PM25": "27"
+    },
+    {
+        "Date": "03/25/2020",
+        "Overall AQI Value": "44",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Reseda",
+        "Site ID (of Overall AQI)": "06-037-1201",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "44",
+        "PM25": "24"
+    },
+    {
+        "Date": "03/26/2020",
+        "Overall AQI Value": "45",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "45",
+        "PM25": "25"
+    },
+    {
+        "Date": "03/27/2020",
+        "Overall AQI Value": "47",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Reseda",
+        "Site ID (of Overall AQI)": "06-037-1201",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "47",
+        "PM25": "28"
+    },
+    {
+        "Date": "03/28/2020",
+        "Overall AQI Value": "54",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "54",
+        "PM25": "42"
+    },
+    {
+        "Date": "03/29/2020",
+        "Overall AQI Value": "54",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "54",
+        "PM25": "43"
+    },
+    {
+        "Date": "03/30/2020",
+        "Overall AQI Value": "54",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "54",
+        "PM25": "40"
+    },
+    {
+        "Date": "03/31/2020",
+        "Overall AQI Value": "74",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "74",
+        "PM25": "49"
+    },
+    {
+        "Date": "04/01/2020",
+        "Overall AQI Value": "67",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Glendora",
+        "Site ID (of Overall AQI)": "06-037-0016",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "67",
+        "PM25": "53"
+    },
+    {
+        "Date": "04/02/2020",
+        "Overall AQI Value": "50",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Glendora",
+        "Site ID (of Overall AQI)": "06-037-0016",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "49",
+        "PM25": "50"
+    },
+    {
+        "Date": "04/03/2020",
+        "Overall AQI Value": "54",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "54",
+        "PM25": "53"
+    },
+    {
+        "Date": "04/04/2020",
+        "Overall AQI Value": "51",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Reseda",
+        "Site ID (of Overall AQI)": "06-037-1201",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "51",
+        "PM25": "45"
+    },
+    {
+        "Date": "04/05/2020",
+        "Overall AQI Value": "37",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pomona",
+        "Site ID (of Overall AQI)": "06-037-1701",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "37",
+        "PM25": "32"
+    },
+    {
+        "Date": "04/06/2020",
+        "Overall AQI Value": "42",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Reseda",
+        "Site ID (of Overall AQI)": "06-037-1201",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "42",
+        "PM25": "23"
+    },
+    {
+        "Date": "04/07/2020",
+        "Overall AQI Value": "40",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Reseda",
+        "Site ID (of Overall AQI)": "06-037-1201",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "40",
+        "PM25": "26"
+    },
+    {
+        "Date": "04/08/2020",
+        "Overall AQI Value": "43",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Reseda",
+        "Site ID (of Overall AQI)": "06-037-1201",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "43",
+        "PM25": "26"
+    },
+    {
+        "Date": "04/09/2020",
+        "Overall AQI Value": "35",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Reseda",
+        "Site ID (of Overall AQI)": "06-037-1201",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "35",
+        "PM25": "22"
+    },
+    {
+        "Date": "04/10/2020",
+        "Overall AQI Value": "42",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "42",
+        "PM25": "20"
+    },
+    {
+        "Date": "04/11/2020",
+        "Overall AQI Value": "49",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "49",
+        "PM25": "36"
+    },
+    {
+        "Date": "04/12/2020",
+        "Overall AQI Value": "40",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Reseda",
+        "Site ID (of Overall AQI)": "06-037-1201",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "40",
+        "PM25": "29"
+    },
+    {
+        "Date": "04/13/2020",
+        "Overall AQI Value": "38",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Reseda",
+        "Site ID (of Overall AQI)": "06-037-1201",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "38",
+        "PM25": "31"
+    },
+    {
+        "Date": "04/14/2020",
+        "Overall AQI Value": "54",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Glendora",
+        "Site ID (of Overall AQI)": "06-037-0016",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "54",
+        "PM25": "47"
+    },
+    {
+        "Date": "04/15/2020",
+        "Overall AQI Value": "77",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "77",
+        "PM25": "52"
+    },
+    {
+        "Date": "04/16/2020",
+        "Overall AQI Value": "71",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "71",
+        "PM25": "49"
+    },
+    {
+        "Date": "04/17/2020",
+        "Overall AQI Value": "43",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Reseda",
+        "Site ID (of Overall AQI)": "06-037-1201",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "43",
+        "PM25": "38"
+    },
+    {
+        "Date": "04/18/2020",
+        "Overall AQI Value": "40",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "40",
+        "PM25": "38"
+    },
+    {
+        "Date": "04/19/2020",
+        "Overall AQI Value": "44",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "44",
+        "PM25": "40"
+    },
+    {
+        "Date": "04/20/2020",
+        "Overall AQI Value": "43",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "43",
+        "PM25": "41"
+    },
+    {
+        "Date": "04/21/2020",
+        "Overall AQI Value": "48",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Glendora",
+        "Site ID (of Overall AQI)": "06-037-0016",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "47",
+        "PM25": "48"
+    },
+    {
+        "Date": "04/22/2020",
+        "Overall AQI Value": "101",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Glendora",
+        "Site ID (of Overall AQI)": "06-037-0016",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "101",
+        "PM25": "53"
+    },
+    {
+        "Date": "04/23/2020",
+        "Overall AQI Value": "140",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Glendora",
+        "Site ID (of Overall AQI)": "06-037-0016",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "140",
+        "PM25": "57"
+    },
+    {
+        "Date": "04/24/2020",
+        "Overall AQI Value": "156",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Mission Viejo",
+        "Site ID (of Overall AQI)": "06-059-2022",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "156",
+        "PM25": "57"
+    },
+    {
+        "Date": "04/25/2020",
+        "Overall AQI Value": "172",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Glendora",
+        "Site ID (of Overall AQI)": "06-037-0016",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "172",
+        "PM25": "55"
+    },
+    {
+        "Date": "04/26/2020",
+        "Overall AQI Value": "159",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Glendora",
+        "Site ID (of Overall AQI)": "06-037-0016",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "159",
+        "PM25": "59"
+    },
+    {
+        "Date": "04/27/2020",
+        "Overall AQI Value": "112",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Santa Clarita",
+        "Site ID (of Overall AQI)": "06-037-6012",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "112",
+        "PM25": "59"
+    },
+    {
+        "Date": "04/28/2020",
+        "Overall AQI Value": "185",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Santa Clarita",
+        "Site ID (of Overall AQI)": "06-037-6012",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "185",
+        "PM25": "59"
+    },
+    {
+        "Date": "04/29/2020",
+        "Overall AQI Value": "147",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Santa Clarita",
+        "Site ID (of Overall AQI)": "06-037-6012",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "147",
+        "PM25": "67"
+    },
+    {
+        "Date": "04/30/2020",
+        "Overall AQI Value": "143",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Glendora",
+        "Site ID (of Overall AQI)": "06-037-0016",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "143",
+        "PM25": "70"
+    },
+    {
+        "Date": "05/01/2020",
+        "Overall AQI Value": "97",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Glendora",
+        "Site ID (of Overall AQI)": "06-037-0016",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "97",
+        "PM25": "63"
+    },
+    {
+        "Date": "05/02/2020",
+        "Overall AQI Value": "93",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Glendora",
+        "Site ID (of Overall AQI)": "06-037-0016",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "93",
+        "PM25": "57"
+    },
+    {
+        "Date": "05/03/2020",
+        "Overall AQI Value": "61",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Glendora",
+        "Site ID (of Overall AQI)": "06-037-0016",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "61",
+        "PM25": "54"
+    },
+    {
+        "Date": "05/04/2020",
+        "Overall AQI Value": "119",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Glendora",
+        "Site ID (of Overall AQI)": "06-037-0016",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "119",
+        "PM25": "55"
+    },
+    {
+        "Date": "05/05/2020",
+        "Overall AQI Value": "159",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pomona",
+        "Site ID (of Overall AQI)": "06-037-1701",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "159",
+        "PM25": "57"
+    },
+    {
+        "Date": "05/06/2020",
+        "Overall AQI Value": "206",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Glendora",
+        "Site ID (of Overall AQI)": "06-037-0016",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "206",
+        "PM25": "59"
+    },
+    {
+        "Date": "05/07/2020",
+        "Overall AQI Value": "204",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "204",
+        "PM25": "60"
+    },
+    {
+        "Date": "05/08/2020",
+        "Overall AQI Value": "185",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Santa Clarita",
+        "Site ID (of Overall AQI)": "06-037-6012",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "185",
+        "PM25": "72"
+    },
+    {
+        "Date": "05/09/2020",
+        "Overall AQI Value": "143",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Santa Clarita",
+        "Site ID (of Overall AQI)": "06-037-6012",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "143",
+        "PM25": "70"
+    },
+    {
+        "Date": "05/10/2020",
+        "Overall AQI Value": "97",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "97",
+        "PM25": "66"
+    },
+    {
+        "Date": "05/11/2020",
+        "Overall AQI Value": "80",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Glendora",
+        "Site ID (of Overall AQI)": "06-037-0016",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "80",
+        "PM25": "56"
+    },
+    {
+        "Date": "05/12/2020",
+        "Overall AQI Value": "39",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pomona",
+        "Site ID (of Overall AQI)": "06-037-1701",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "39",
+        "PM25": "38"
+    },
+    {
+        "Date": "05/13/2020",
+        "Overall AQI Value": "50",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "50",
+        "PM25": "34"
+    },
+    {
+        "Date": "05/14/2020",
+        "Overall AQI Value": "49",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Glendora",
+        "Site ID (of Overall AQI)": "06-037-0016",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "49",
+        "PM25": "44"
+    },
+    {
+        "Date": "05/15/2020",
+        "Overall AQI Value": "90",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Glendora",
+        "Site ID (of Overall AQI)": "06-037-0016",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "90",
+        "PM25": "46"
+    },
+    {
+        "Date": "05/16/2020",
+        "Overall AQI Value": "140",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Glendora",
+        "Site ID (of Overall AQI)": "06-037-0016",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "140",
+        "PM25": "59"
+    },
+    {
+        "Date": "05/17/2020",
+        "Overall AQI Value": "77",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "77",
+        "PM25": "52"
+    },
+    {
+        "Date": "05/18/2020",
+        "Overall AQI Value": "40",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Reseda",
+        "Site ID (of Overall AQI)": "06-037-1201",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "40",
+        "PM25": "33"
+    },
+    {
+        "Date": "05/19/2020",
+        "Overall AQI Value": "45",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pomona",
+        "Site ID (of Overall AQI)": "06-037-1701",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "45",
+        "PM25": "31"
+    },
+    {
+        "Date": "05/20/2020",
+        "Overall AQI Value": "49",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Reseda",
+        "Site ID (of Overall AQI)": "06-037-1201",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "49",
+        "PM25": "40"
+    },
+    {
+        "Date": "05/21/2020",
+        "Overall AQI Value": "100",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "100",
+        "PM25": "51"
+    },
+    {
+        "Date": "05/22/2020",
+        "Overall AQI Value": "67",
+        "Main Pollutant": "PM2.5",
+        "Site Name (of Overall AQI)": "Reseda",
+        "Site ID (of Overall AQI)": "06-037-1201",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "64",
+        "PM25": "67"
+    },
+    {
+        "Date": "05/23/2020",
+        "Overall AQI Value": "71",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "71",
+        "PM25": "70"
+    },
+    {
+        "Date": "05/24/2020",
+        "Overall AQI Value": "108",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Glendora",
+        "Site ID (of Overall AQI)": "06-037-0016",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "108",
+        "PM25": "71"
+    },
+    {
+        "Date": "05/25/2020",
+        "Overall AQI Value": "143",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Glendora",
+        "Site ID (of Overall AQI)": "06-037-0016",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "143",
+        "PM25": "74"
+    },
+    {
+        "Date": "05/26/2020",
+        "Overall AQI Value": "147",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Glendora",
+        "Site ID (of Overall AQI)": "06-037-0016",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "147",
+        "PM25": "76"
+    },
+    {
+        "Date": "05/27/2020",
+        "Overall AQI Value": "136",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Reseda",
+        "Site ID (of Overall AQI)": "06-037-1201",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "136",
+        "PM25": "66"
+    },
+    {
+        "Date": "05/28/2020",
+        "Overall AQI Value": "164",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Santa Clarita",
+        "Site ID (of Overall AQI)": "06-037-6012",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "164",
+        "PM25": "63"
+    },
+    {
+        "Date": "05/29/2020",
+        "Overall AQI Value": "64",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Lancaster-Division Street",
+        "Site ID (of Overall AQI)": "06-037-9033",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "64",
+        "PM25": "54"
+    },
+    {
+        "Date": "05/30/2020",
+        "Overall AQI Value": "42",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pomona",
+        "Site ID (of Overall AQI)": "06-037-1701",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "42",
+        "PM25": "34"
+    },
+    {
+        "Date": "05/31/2020",
+        "Overall AQI Value": "54",
+        "Main Pollutant": "Ozone",
+        "Site Name (of Overall AQI)": "Pasadena",
+        "Site ID (of Overall AQI)": "06-037-2005",
+        "Source (of Overall AQI)": "AirNow",
+        "Ozone": "54",
+        "PM25": "49"
+    }
+]
