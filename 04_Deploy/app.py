@@ -21,7 +21,7 @@ from sqlalchemy.ext.declarative import declarative_base
 # Note: User will need to supply their own PostgreSQL password under variable below
 user = 'postgres'
 host = 'localhost'
-password = 'PASSWORD'
+password = 'thehawk-2002'
 port = '5432'
 db = 'avg_aqi'
 uri = f'postgresql://{user}:{password}@{host}:{port}/{db}'
@@ -68,7 +68,7 @@ def home():
 def test():
 
     # if request.method == "POST":
-    #     county = request.form['selCounty']
+    county = request.form['selCounty']
 
     # county = request.form.get('selCounty')
 
