@@ -23,8 +23,11 @@
       <div class="col-md-2">
         <div class="well">
           <h5>Select county :</h5>
-          <select id="selDataset" onchange="optionChanged(this.value)">
-          </select>
+            <select id="selDataset" onchange="optionChanged(this.value)">
+              {% for county in list %}
+              <option value="{{ county }}">{{ county }}</option>
+              {% endfor %}            
+            </select>
         </div>
         <div class="panel panel-primary">
           <div class="panel-heading">
