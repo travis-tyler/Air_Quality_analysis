@@ -21,7 +21,7 @@ from sqlalchemy.ext.declarative import declarative_base
 # Note: User will need to supply their own PostgreSQL password under variable below
 user = 'postgres'
 host = 'localhost'
-password = 'thehawk-2002'
+password = 'PASSWORD'
 port = '5432'
 db = 'avg_aqi'
 uri = f'postgresql://{user}:{password}@{host}:{port}/{db}'
