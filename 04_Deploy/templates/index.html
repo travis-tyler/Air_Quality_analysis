@@ -5,9 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Visualizing Air Quality Analysis</title>
+  <title>Visualizing Air Quality</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
 </head>
 
 <body>
@@ -15,14 +14,42 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
-        <h1>Visualizing Air Quality Analysis</h1>
+        <h1>Visualizing Air Quality</h1>
         <p>An analysis of trends the AQI of American counties</p>
       </div>
     </div>
     <div class="row bg-dark">
-      <div class="col-md-3">
+      <div class="col-md-2">
         <div class="well">
-          <h5>Select state:</h5>
+          <h5>State:</h5>
+          <form method="POST" action="{{ url_for('test') }}">
+            <div class="form-group">
+              <div class="input-group">
+                <select name="selState" class="selectpicker form-control">
+                  <option value="" disabled selected>Select state</option>
+                  {% for state in state_list %}
+                  <option value="{{ state }}">{{ state }}</option>
+                  {% endfor %} 
+                </select>
+              </div>
+            </div>
+          </form>
+          <h5>County:</h5>
+          <form method="POST" action="{{ url_for('test') }}">
+            <div class="form-group">
+              <div class="input-group">
+                <select name="selCounty" class="selectpicker form-control">
+                  <option value="" disabled selected>Select county</option>
+                  {% for county in county_list %}
+                  <option value="{{ county }}">{{ county }}</option>
+                  {% endfor %} 
+                </select>
+              </div>
+              <br>
+              <button type="submit" class="btn btn-default">Display area graph</button>
+            </div>
+          </form>
+          <!-- <h5>Select state:</h5>
             <select id="selState" name="selState">
               <option value="" disabled selected>All states</option>
               {% for state in state_list %}
@@ -37,7 +64,7 @@
               {% for county in county_list %}
               <option value="{{ county }}">{{ county }}</option>
               {% endfor %}            
-            </select>
+            </select> -->
         </div>
         <div class="panel panel-primary">
           <div class="panel-heading">
