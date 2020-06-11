@@ -12,18 +12,18 @@
 
 <body>
 
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
         <h1>Visualizing Air Quality Analysis</h1>
         <p>An analysis of trends the AQI of American counties</p>
       </div>
     </div>
-    <div class="row">
+    <div class="row bg-dark">
       <div class="col-md-3">
         <div class="well">
-          <h5>Select state :</h5>
-            <select id="selState" onchange="optionChanged(this.value)">
+          <h5>Select state:</h5>
+            <select id="selState" name="selState">
               <option value="" disabled selected>All states</option>
               {% for state in state_list %}
               <option value="{{ state }}">{{ state }}</option>
@@ -31,8 +31,8 @@
             </select>
         </div>
         <div class="well">
-          <h5>Select county :</h5>
-            <select id="selCounty" onchange="optionChanged(this.value)">
+          <h5>Select county:</h5>
+            <select id="selCounty" name="selCounty">
               <option value="" disabled selected>All counties</option>
               {% for county in county_list %}
               <option value="{{ county }}">{{ county }}</option>
