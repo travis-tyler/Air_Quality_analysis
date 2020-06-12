@@ -1,10 +1,12 @@
-function buildPlot() {
+function buildPlot(county) {
     // let d3;
     // let Plotly;
 
     /* data route */
-    const url = "/test";
+    const url = `/county_data?county=${county}`;
     d3.json(url).then(function(response) {
+
+        console.log(response);
 
 
         // Trace for 2020 data
@@ -35,15 +37,43 @@ function buildPlot() {
               },
               yaxis: {
                 title: "Air quality index",
-                tick0: 0,
+                tick0: 0
               },
             paper_bgcolor: 'rgba(0,0,0,0)',
-            plot_bgcolor: 'rgba(0,0,0,0)'        
+            plot_bgcolor: 'rgba(0,0,0,0)',
+            font: {
+                color: "white"
+            }        
         };
+
+        console.log(data);
 
         Plotly.newPlot("plot", data, layout);
     });
 }
 
-buildPlot();
+// Select dropdown menu using D3
+var selectDrop = d3.select("#selDataset");
+
+
+// Create event handler
+selectDrop.on("change",runEnter);
+// Event handler function
+function runEnter() {
+    // Prevent the page from refreshing
+    d3.event.preventDefault();
+    // Select the input element and get HTML node
+    var inputElement = d3.select("select");
+    // Get the value property of the input element
+    var userCounty = inputElement.property("value");
+
+
+
+
+    buildPlot(userCounty);
+};
+
+
+
+
 
