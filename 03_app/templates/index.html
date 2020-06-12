@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Visualizing Air Quality</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body style="background-color:black;">  
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center" style="background-image: linear-gradient(powderblue, darkorange, black);">
+        <h1 style="color: powderblue;">Visualizing Air Quality</h1>
+        <p style="color: white;">An analysis of trends the AQI of American counties</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <h3 style="color: powderblue; text-align: center">How has the COVID-19 pandemic affected air quality in the U.S.?</h4>
+        <p style="color: powderblue; text-align: center">To find out, we gathered data from the EPA. We looked specifically at air quality index (AQI)</p>
+        <br><br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <h3 style="color: white;text-align: center;">What is Air Quality Index?</h3>
+        <p style="color: white;">AQI is EPA’s index for reporting air quality. 
+          It is as a yardstick that runs from 0 to 500, with larger values representing higher levels of air pollution. 
+          AQI is determined by the follow air pollutants:</p>
+        <p style="color: white;">-Ground-level ozone</p>
+        <p style="color: white;">-Particle pollution (PM2.5 and PM10)</p>
+        <p style="color: white;">-Carbon monoxide</p>
+        <p style="color: white;">-Sulfur dioxide</p>
+        <p style="color: white;">-Nitrogen dioxide</p><br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h1 style="color: powderblue; text-align: center;">Overview</h1>
+        <br>
+        <div id="bubble"></div>
+        <h2 style="color: powderblue; text-align: center;">Timeline</h2>
+        <div class='tableauPlaceholder' id='viz1591671613346' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2020AQIAnalysis&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='2020AQIAnalysis&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2020AQIAnalysis&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div> <script type='text/javascript'> var divElement = document.getElementById('viz1591671613346'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.minWidth='420px';vizElement.style.maxWidth='1550px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='1487px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+        <br>
+        <br>
+        <h2 style="color: powderblue; text-align: center;">Comparing California</h2>
+        <div class='tableauPlaceholder' id='viz1591744937108' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Av&#47;Avg_CaliforniaAQIvs_5yaverage&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Avg_CaliforniaAQIvs_5yaverage&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Av&#47;Avg_CaliforniaAQIvs_5yaverage&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1591744937108');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.minWidth='420px';vizElement.style.maxWidth='1550px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>    
+        <br>
+      </div>
+      <h1 style="color: powderblue; text-align: center;">Zooming in</h1>
+      <div class="col-md-5"></div>
+      <div class="col-md-2">
+        <div class="well" style="background-image: linear-gradient(darkorange, black);">
+          <h5 style="color: powderblue;">Individual county visualization</h5>
+          <select id="selDataset">
+            <option value="" disabled selected>Select county</option>
+            {% for county in county_list %}
+            <option value="{{ county }}">{{ county }}</option>
+            {% endfor %} 
+          </select>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div id="plot"></div>
+      </div>
+      <br>
+    </div>
+    <div>
+      <h3 style="color: powderblue; text-align: center;">Air quality categories in 2020</h2>
+      <div class='tableauPlaceholder' id='viz1591998207089' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2020DailyAQIbyState&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='2020DailyAQIbyState&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2020DailyAQIbyState&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1591998207089');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='1550px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='1387px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='1550px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='1387px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+      <h3 style="color: powderblue; text-align: center;">Counties reporting in 2020</h2>
+      <div class='tableauPlaceholder' id='viz1591920714574' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;CountiesAQIAverage&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='CountiesAQIAverage&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;CountiesAQIAverage&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div> <script type='text/javascript'> var divElement = document.getElementById('viz1591920714574'); var vizElement = divElement.getElementsByTagName('object')[0]; if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='1550px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='1550px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';} var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement); </script>
+      <br>
+    </div>
+  </div>
+</div>
+
+<footer style="background-image: linear-gradient(black, darkorange);">
+  <p style="text-align: center; color: powderblue;">Authors: Rolando Navarro, Daniel Santa, Travis Tyler, Mohammad Usman</p>
+  <p style="text-align: center;"><a href="https://github.com/hal-pemulis/Air_Quality_analysis" style="color: white;">https://github.com/hal-pemulis/Air_Quality_analysis</a></p>
+  <br>
+</footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="./static/app.js"></script>
+
+
+</body>
+
+</html>

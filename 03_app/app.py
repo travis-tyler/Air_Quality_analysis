@@ -14,14 +14,12 @@ app = Flask(__name__)
 #################################################
 # Database Setup
 from sqlalchemy import create_engine
-from sqlalchemy.orm import scoped_session, sessionmaker
-from sqlalchemy.ext.declarative import declarative_base
 
 # Create engine
 # Note: User will need to supply their own PostgreSQL password under variable below
 user = 'postgres'
 host = 'localhost'
-password = 'PASSWORD'
+password = 'postgres-2002'
 port = '5432'
 db = 'avg_aqi'
 uri = f'postgresql://{user}:{password}@{host}:{port}/{db}'

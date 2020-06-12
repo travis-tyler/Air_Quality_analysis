@@ -30,8 +30,8 @@ function buildPlot(county) {
         // Layout for line graph
         let layout = {
             title: "2020 AQI vs. 5Y average",
-            height: 700,
-            width: 1000,
+            height: 900,
+            width: 1500,
             xaxis: {
                 title: "Date"
               },
@@ -66,9 +66,6 @@ function runEnter() {
     var inputElement = d3.select("select");
     // Get the value property of the input element
     var userCounty = inputElement.property("value");
-
-
-
 
     buildPlot(userCounty);
 };
