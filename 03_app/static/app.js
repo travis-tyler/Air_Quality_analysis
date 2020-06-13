@@ -30,8 +30,8 @@ function buildPlot(county) {
         // Layout for line graph
         let layout = {
             title: "2020 AQI vs. 5Y average",
-            height: 900,
-            width: 1500,
+            height: 700,
+            width: 1200,
             xaxis: {
                 title: "Date"
               },
