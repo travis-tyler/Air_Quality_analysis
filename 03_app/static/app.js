@@ -1,13 +1,8 @@
 function buildPlot(county) {
-    // let d3;
-    // let Plotly;
 
     /* data route */
     const url = `/county_data?county=${county}`;
     d3.json(url).then(function(response) {
-
-        console.log(response);
-
 
         // Trace for 2020 data
         let trace2020 = {
@@ -45,8 +40,6 @@ function buildPlot(county) {
                 color: "white"
             }        
         };
-
-        console.log(data);
 
         Plotly.newPlot("plot", data, layout);
     });
