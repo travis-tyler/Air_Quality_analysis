@@ -11,9 +11,9 @@
 
 <body style="background-color:black;">  
 
-  <div class="container">
+  <div class="container col-md-12">
     <div class="row">
-      <div class="col-md-12 jumbotron text-center" style="background-image: linear-gradient(powderblue, darkorange, black);">
+      <div class=" jumbotron text-center" style="background-image: linear-gradient(powderblue, darkorange, black);">
         <h1 style="color: powderblue;">Visualizing Air Quality</h1>
         <p style="color: white;">An analysis of air quality trends in the U.S.</p>
       </div>
@@ -40,29 +40,93 @@
         <p style="color: white;">-Nitrogen dioxide</p><br>
       </div>
     </div>
+    <br>
     <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <h3 style="color: white;text-align: center;">Hypotheses</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <h4 style="color: white;text-align: center;">Null hypothesis</h4>
+        <p style="color: white;">AQI has not improved in 2020, since the COVID-19 pandemic reached the U.S.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <h4 style="color: white;text-align: center;">Alternative hypothesis</h4>
+        <p style="color: white;">AQI has improved in 2020, since the COVID-19 pandemic reached the U.S.</p>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <h3 style="color: white;text-align: center;">Results</h3>
+        <p style="color: white;">We found that average AQI for 2020 (January-May) was significantly lower compared to both 2019 (p-value=2.2824e-10 (station avg.) and p-value=1.0746e-08 (date avg.)).</p>
+      </div>
+    </div>
+    <div class="row">
+      <br>
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <img class="col-md-6"src="{{ url_for('static', filename='station_hist.png' ) }}">
+        <img class="col-md-6"src="{{ url_for('static', filename='date_hist.png' ) }}">
+      </div>
+    </div>
+    <div class="row">
+      <br>
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <p style="color: white;">The null hypothesis, is therefore rejected.</p>
+        <p style="color: white;">We could not determine, using only mobility data from Google and Apple, whether the lower AQI was due to decreased road traffic.</p>
+        <p style="color: white;">The visualizations below, however, show a clear dip in AQI beginnning in March 2020, which corresponds to a dramatic drop in mobility nationwide.</p>
+        <p style="color: white;">This data could be flawed. Updated and better data, and further research and testing is needed.</p>
+      </div>
+    </div>
+    <div class="row">
+      <br><br><hr><br><br>
       <div class="col-md-12">
         <h1 style="color: powderblue; text-align: center;">Overview</h1>
-        <br>
-        <div id="bubble"></div>
-        <h2 style="color: powderblue; text-align: center;">Timeline</h2>
-        <div class='tableauPlaceholder' id='viz1591671613346' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2020AQIAnalysis&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='2020AQIAnalysis&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2020AQIAnalysis&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div> <script type='text/javascript'> var divElement = document.getElementById('viz1591671613346'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.minWidth='420px';vizElement.style.maxWidth='1550px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='1487px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
-        <br>
-        <br>
-        <h2 style="color: powderblue; text-align: center;">Comparing California</h2>
-        <div class='tableauPlaceholder' id='viz1591744937108' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Av&#47;Avg_CaliforniaAQIvs_5yaverage&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Avg_CaliforniaAQIvs_5yaverage&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Av&#47;Avg_CaliforniaAQIvs_5yaverage&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1591744937108');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.minWidth='420px';vizElement.style.maxWidth='1550px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>    
-        <br>
-        <br>
-        <h2 style="color: powderblue; text-align: center;">Changes by state</h2>
-        <div class='tableauPlaceholder' id='viz1592059351428' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;75&#47;75G6GYKYF&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;75G6GYKYF' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;75&#47;75G6GYKYF&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1592059351428');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.minWidth='420px';vizElement.style.maxWidth='1550px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='987px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-        <br>
-        <br>
       </div>
-      <h1 style="color: powderblue; text-align: center;">Zooming in</h1>
+    </div>
+    <div class="row">
+      <br><br>
+      <div class="col-md-12">
+        <h2 style="color: powderblue; text-align: center;">Timeline</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class='tableauPlaceholder' id='viz1591671613346' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2020AQIAnalysis&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='2020AQIAnalysis&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2020AQIAnalysis&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div> <script type='text/javascript'> var divElement = document.getElementById('viz1591671613346'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.minWidth='420px';vizElement.style.maxWidth='1550px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='1487px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <br><br><br><br>
+        <h2 style="color: powderblue; text-align: center;">Comparing California</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class='tableauPlaceholder' id='viz1591744937108' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Av&#47;Avg_CaliforniaAQIvs_5yaverage&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Avg_CaliforniaAQIvs_5yaverage&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Av&#47;Avg_CaliforniaAQIvs_5yaverage&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1591744937108');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.minWidth='420px';vizElement.style.maxWidth='1550px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>    
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h1 style="color: powderblue; text-align: center;">Zooming in</h1>
+      </div>
+    </div>
+    <div class="row">
       <div class="col-md-4"></div>
       <div class="col-md-4">
         <div class="well" style="background-image: linear-gradient(darkorange, black);">
-          <h5 style="color: powderblue;">Individual California county visualization</h5>
+          <h5 style="color: powderblue;">Individual county visualization</h5>
           <select id="selDataset">
             <option value="" disabled selected>Select county</option>
             {% for county in county_list %}
@@ -71,28 +135,48 @@
           </select>
         </div>
       </div>
-      <div class="col-md-12">
+    </div>
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-6">
         <div id="plot"></div>
       </div>
-      <br>
-      <br>
-      <br>
     </div>
-    <div>
+    <div class="row">
+      <br><br><br><br>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h2 style="color: powderblue; text-align: center;">Changes by state</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class='tableauPlaceholder' id='viz1592059351428' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;75&#47;75G6GYKYF&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;75G6GYKYF' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;75&#47;75G6GYKYF&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1592059351428');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.minWidth='420px';vizElement.style.maxWidth='1550px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='987px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+      </div>
+    </div>
+    
+    <!-- <div>
       <h3 style="color: powderblue; text-align: center;">Air quality categories in 2020</h2>
       <div class='tableauPlaceholder' id='viz1591998207089' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2020DailyAQIbyState&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='2020DailyAQIbyState&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2020DailyAQIbyState&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1591998207089');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='1550px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='1387px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='1550px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='1387px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
       <h3 style="color: powderblue; text-align: center;">Counties reporting in 2020</h2>
       <div class='tableauPlaceholder' id='viz1591920714574' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;CountiesAQIAverage&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='CountiesAQIAverage&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;CountiesAQIAverage&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div> <script type='text/javascript'> var divElement = document.getElementById('viz1591920714574'); var vizElement = divElement.getElementsByTagName('object')[0]; if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='1550px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='1550px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';} var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement); </script>
       <br>
-    </div>
-  </div>
-</div>
+    </div> -->
 
-<footer style="background-image: linear-gradient(black, darkorange);">
-  <p style="text-align: center; color: powderblue;">Authors: Rolando Navarro, Daniel Santa, Travis Tyler, Mohammad Usman</p>
-  <p style="text-align: center;"><a href="https://github.com/hal-pemulis/Air_Quality_analysis" style="color: white;">https://github.com/hal-pemulis/Air_Quality_analysis</a></p>
-  <br>
-</footer>
+    <div class="row">
+      <br><br><br><br>
+      <div class="col-md-12">
+        <footer style="background-image: linear-gradient(black, darkorange);">
+          <p style="text-align: center; color: powderblue;">Authors: Rolando Navarro, Daniel Santa, Travis Tyler, Mohammad Usman</p>
+          <p style="text-align: center;"><a href="https://github.com/hal-pemulis/Air_Quality_analysis" style="color: white;">https://github.com/hal-pemulis/Air_Quality_analysis</a></p>
+          <br> 
+        </footer>     
+      </div>
+    </div>
+
+  </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>

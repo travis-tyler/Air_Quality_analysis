@@ -6,6 +6,7 @@ from flask import (
     jsonify,
     request,
     redirect)
+from gitignore.txt import password as pw
 
 #################################################
 # Flask Setup
@@ -19,7 +20,7 @@ from sqlalchemy import create_engine
 # Note: User will need to supply their own PostgreSQL password under variable below
 user = 'postgres'
 host = 'localhost'
-password = 'PASSWORD'
+password = pw
 port = '5432'
 db = 'avg_aqi'
 uri = f'postgresql://{user}:{password}@{host}:{port}/{db}'
@@ -35,11 +36,13 @@ counties = engine.execute(f"SELECT DISTINCT county_state from aqi_2020 WHERE dat
 for c in counties:
     all_counties.append(c[0])
 
+images = {'station_hist':'../01_Resources/Images/station_hist.png', 'date_hist':'../01_Resources/Images/date_hist.png'}
+
 # create route that renders index.html template
 @app.route("/")
 def home():
     # return jsonify(all_states)
-    return render_template('index.html', state_list=all_states, county_list=all_counties)
+    return render_template('index.html', state_list=all_states, county_list=all_counties, image_dict=images)
 
 # Route to get county name, query DB, and create JSON data for app.js
 @app.route("/county_data" , methods=['GET', 'POST'])
