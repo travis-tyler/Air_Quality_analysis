@@ -6,7 +6,7 @@ from flask import (
     jsonify,
     request,
     redirect)
-from gitignore.txt import password as pw
+from config import password as pw
 
 #################################################
 # Flask Setup
