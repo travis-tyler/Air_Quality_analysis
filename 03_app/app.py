@@ -6,7 +6,7 @@ from flask import (
     jsonify,
     request,
     redirect)
-from config import password as pw
+# from config import password as pw
 
 #################################################
 # Flask Setup
@@ -15,7 +15,7 @@ app = Flask(__name__)
 #################################################
 # Database Setup
 # from flask_sqlalchemy import SQLAlchemy
-# app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL', '') 
+DATABASE_URL = os.environ.get('DATABASE_URL', '') 
 
 from sqlalchemy import create_engine
 
