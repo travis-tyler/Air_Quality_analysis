@@ -14,19 +14,11 @@ app = Flask(__name__)
 
 #################################################
 # Database Setup
-# from flask_sqlalchemy import SQLAlchemy
 DATABASE_URL = os.environ.get('DATABASE_URL', '') 
 
 from sqlalchemy import create_engine
 
 # Create engine
-# Note: User will need to supply their own PostgreSQL password under variable below
-# user = 'postgres'
-# host = 'localhost'
-# password = pw
-# port = '5432'
-# db = 'avg_aqi'
-# uri = f'postgresql://{user}:{password}@{host}:{port}/{db}'
 uri = DATABASE_URL
 engine = create_engine(uri)
 
@@ -40,13 +32,11 @@ counties = engine.execute(f"SELECT DISTINCT county_state from aqi_2020 WHERE dat
 for c in counties:
     all_counties.append(c[0])
 
-images = {'station_hist':'../01_Resources/Images/station_hist.png', 'date_hist':'../01_Resources/Images/date_hist.png'}
-
 # create route that renders index.html template
 @app.route("/")
 def home():
     # return jsonify(all_states)
-    return render_template('index.html', state_list=all_states, county_list=all_counties, image_dict=images)
+    return render_template('index.html', state_list=all_states, county_list=all_counties)
 
 # Route to get county name, query DB, and create JSON data for app.js
 @app.route("/county_data" , methods=['GET', 'POST'])
