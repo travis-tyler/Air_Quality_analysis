@@ -14,16 +14,20 @@ app = Flask(__name__)
 
 #################################################
 # Database Setup
+# from flask_sqlalchemy import SQLAlchemy
+# app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL', '') 
+
 from sqlalchemy import create_engine
 
 # Create engine
 # Note: User will need to supply their own PostgreSQL password under variable below
-user = 'postgres'
-host = 'localhost'
-password = pw
-port = '5432'
-db = 'avg_aqi'
-uri = f'postgresql://{user}:{password}@{host}:{port}/{db}'
+# user = 'postgres'
+# host = 'localhost'
+# password = pw
+# port = '5432'
+# db = 'avg_aqi'
+# uri = f'postgresql://{user}:{password}@{host}:{port}/{db}'
+uri = DATABASE_URL
 engine = create_engine(uri)
 
 #Query DB for list of states and counties
