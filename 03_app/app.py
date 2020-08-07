@@ -28,7 +28,7 @@ states = engine.execute(f"SELECT DISTINCT state FROM aqi_2020 ORDER BY state")
 for s in states:
     all_states.append(s[0])
 all_counties = []
-counties = engine.execute(f"SELECT DISTINCT county_state from aqi_2020 WHERE date > '2020-04-01' ORDER BY county_state;")
+counties = engine.execute(f"SELECT DISTINCT county_state from aqi_2020 WHERE date > '2020-03-31' ORDER BY county_state;")
 for c in counties:
     all_counties.append(c[0])
 
